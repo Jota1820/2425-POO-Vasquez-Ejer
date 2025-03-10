@@ -90,6 +90,7 @@ def menu():
             print("6. Salir")
             opcion = input("Seleccione una opción: ")
 
+
             if opcion == '1': #Si la ocpion es añadir
                 id_producto = input("Ingrese ID del producto: ")  #Pedimos el id
                 nombre = input("Ingrese nombre del producto: ") #Pedimos el nombre
